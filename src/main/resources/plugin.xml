@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+   <extension point="com.change_vision.astah.ui.actionSets">
+      <actionSet
+            label="%action_set_label"
+            visible="true"
+            id="usecasegen.usecase-generator.actionSet">
+         <menu
+               id="usecase-generator"
+               label="%menu_group"
+               path="tool/usecase-generator">
+         </menu>
+         <action
+			   label="%menu_label"
+               icon="icons/sample.gif"
+               class="usecasegen.UseCaseGenAction"
+               tooltip="%menu_tooltip"
+               menubarPath="tool/usecase-generator/"
+               id="usecase-generator">
+         </action>
+     </actionSet>
+   </extension>
+</plugin>

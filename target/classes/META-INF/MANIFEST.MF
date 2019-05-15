@@ -1,0 +1,29 @@
+Manifest-Version: 1.0
+Astah-Edition: all
+Astah-Version: 6.7
+Bnd-LastModified: 1453090196850
+Build-Jdk: 1.7.0_40
+Built-By: HiroMac
+Bundle-Activator: usecasegen.Activator
+Bundle-Description: %bundle.description
+Bundle-ManifestVersion: 2
+Bundle-Name: %bundle.name
+Bundle-SymbolicName: usecasegen.usecase-generator; singleton:=true
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Embed-Dependency: *;scope=compile|runtime;type=!pom
+Embed-Transitive: true
+Export-Package: usecasegen;uses:="org.osgi.framework,com.change_vision.j
+ ude.api.inf.exception,com.change_vision.jude.api.inf.model,com.change_v
+ ision.jude.api.inf,com.change_vision.jude.api.inf.presentation,com.chan
+ ge_vision.jude.api.inf.editor,com.change_vision.jude.api.inf.project,ja
+ vax.swing,com.change_vision.jude.api.inf.ui";version="1.0.0.SNAPSHOT"
+Import-Package: com.change_vision.jude.api.inf;resolution:=optional,com.
+ change_vision.jude.api.inf.editor;resolution:=optional,com.change_visio
+ n.jude.api.inf.exception;resolution:=optional,com.change_vision.jude.ap
+ i.inf.model;resolution:=optional,com.change_vision.jude.api.inf.present
+ ation;resolution:=optional,com.change_vision.jude.api.inf.project;resol
+ ution:=optional,com.change_vision.jude.api.inf.ui;resolution:=optional,
+ javax.swing;resolution:=optional,org.osgi.framework;resolution:=optiona
+ l;version="[1.5,2)"
+Tool: Bnd-1.50.0
